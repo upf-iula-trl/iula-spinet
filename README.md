@@ -18,6 +18,10 @@ src/etc/webapps
 
 2. Compile and everything should be ok
 
+# Compatibility
+This customization is based on version 
+  soaplab2-2.3.2-beta1
+
 # Contributing
 Fork, commit changes and send a pull request. 
 Since there are no tests or specs, merges will not be done easily.
