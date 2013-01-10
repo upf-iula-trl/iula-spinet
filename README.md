@@ -7,6 +7,11 @@ http://soaplab.sourceforge.net/soaplab2/SpinetClient.html
 
 Spinet, a web services client software, is distributed with SOAPLAB and used to access easily to web services in SOAPLAB system.
 
+# Basic changes
+* Look & feel.
+* 2 copies of run/reset buttons. One above and one below parameters
+* Reset button is renderized as a link. So, does not cause confusion with Run button.
+
 # Installation
 1. Just overwrite files in folder
 src/etc/webapps
