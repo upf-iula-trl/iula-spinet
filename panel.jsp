@@ -30,7 +30,8 @@ var supernote = new SuperNote ('${cleanServiceName}', { 'hideDelay': 250 });
 <!-- TOP: button(s) and service status -->
 <div style="float:left;margin:5px">
 <a href="javascript:void%200" class="${cleanServiceName}-hover-${cleanServiceName}"><img src="images/help_view.gif" border="0" alt="HELP" width="16" height="16" /></a>
-<input type="submit" name="${param.serviceName}_run" value=" Run service "  class="button"/><br>
+<input type="submit" name="${param.serviceName}_run" value=" Run service "  class="button"/>
+<input type="button" name="${param.serviceName}_res" value=" Reset fields " class="button button-ws-panel button-ws-panel-reset" onClick="resetForm(this.form)"/>
 </div>
 <div id="${param.serviceName}_status" class="status"></div>
 <br clear="both">
@@ -55,7 +56,8 @@ ${inputs}
 
 <tr>
 <td valign="top">
-<input type="button" name="${param.serviceName}_res" value=" Reset fields " class="button" onClick="resetForm(this.form)"/>
+<input type="submit" name="${param.serviceName}_run" value=" Run service "  class="button button-ws-panel"/>
+<input type="button" name="${param.serviceName}_res" value=" Reset fields " class="button button-ws-panel button-ws-panel-reset" onClick="resetForm(this.form)"/>
 </td>
 </tr>
 

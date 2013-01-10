@@ -106,7 +106,7 @@ function init()
   
   <c:forEach var="service" items="${category.services}">
 
-    <tr valign="top" class="${category.name}-service-row" id="${service.name}_row">
+    <tr valign="top" class="${category.name}-service-row service-row" id="${service.name}_row">
       <td>&nbsp;</td>
       <td>
       	<a href="javascript:void%200" onClick="togglePanel('${service.name}')">${service.displayName}</a>
